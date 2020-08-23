@@ -56,18 +56,22 @@
       document.querySelector('.show').style.display = "block";
       document.querySelector('.show1').style.display = "block";
       document.querySelector('.show2').style.display = "block";
+      document.querySelector('.menudis').style.display = "block";
+      document.querySelector('.menudis1').style.display = "block";
+      document.querySelector('.menudis2').style.display = "block";
+      document.querySelector('.titledis').style.border = "1px solid #000000"
+      document.querySelector('.titledis1').style.border = "1px solid #000000"
+      document.querySelector('.titledis2').style.border = "1px solid #000000"
     }
 
-    function getInput() {
-        x = document.querySelector("#valuelem").value
-        return x;
-      }
+    // function getInput() {
+    //     x = document.querySelector("#valuelem").value
+    //     return x;
+    //   }
     
     async function run() {
         const formElem = document.querySelector('#form');
         // const getval = document.querySelector('#valuelem').value;
-        
-        const showval = document.querySelector('#demo');
         formElem.addEventListener('click',async function(e) {
             const getval = document.querySelector('#valuelem').value;
             try{
